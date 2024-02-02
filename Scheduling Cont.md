@@ -17,5 +17,7 @@ EX: When a new job arrives, the current running job stops and runtime is deducte
    - Time Quantum: a value assigned to each job that outlines how long a job runs before interrupt.
    - After a job runs its quantum, it is placed at the bottom of the queue with its leftover time.
    - Does not allow starvation for bigger jobs
-  
-  Turnaround = JobEnd - Submission
+
+## Scheduling Metrics
+1. **Turnaround Time**: Completion Time - Arrival time
+2. **Response Time**: 
